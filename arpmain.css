@@ -1,0 +1,69 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    background-image: url("grav.jpg");
+}
+
+body {
+    background-image: linear-gradient(rgba(8,8,8,1), rgba(8,8,8,.9));
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 100%;
+    height:1200px;
+}
+.title-display {
+    border-top:none;
+    border:0px solid grey;
+position:fixed;
+    text-align:center;
+    padding-top:5%;
+    width: 50%;
+   margin-left:25%;
+    
+}
+.nav-item {
+    border:1px solid grey;
+    padding-left:1%;
+    padding-right:1%;
+    padding-top:2px;
+    padding-bottom:2px;
+    text-decoration: none;
+    color:white;
+    margin-left:1%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
